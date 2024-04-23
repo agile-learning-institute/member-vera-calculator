@@ -2,7 +2,7 @@
 
 This is a simple calcuator application using HTML, CSS, and JavaScript.  It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-##Features
+## Features
 
 - Addition
 - Subtraction
