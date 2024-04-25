@@ -9,6 +9,7 @@ This is a simple calculator application using HTML, CSS, and JavaScript.  It per
 - Multiplication
 - Division
 - Clear button to reset the calculator
+- Back button to undo wrong clicks
 - Responsive design
 
 ## Technologies Used
