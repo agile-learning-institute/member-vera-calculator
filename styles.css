@@ -25,7 +25,28 @@ h1 {
     width: 80px;
     margin: 25px;
     font-size: 40px;
-    background-color: lightskyblue;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.number {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.operator {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.decimal {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.equal {
+    background-color: purple;
+    border-radius: 10px;
 }
 
 #screen {

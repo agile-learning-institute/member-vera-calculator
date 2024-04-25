@@ -1,4 +1,4 @@
-let operator = '';
-let previousValue = '';
-let currentValue = '';
+let operator = "";
+let previousValue = "";
+let currentValue = "";
 
