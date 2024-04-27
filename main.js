@@ -1,7 +1,7 @@
 //global variables
-let operator = "";
-let previousValue = "";
-let currentValue = "";
+let operator = '';
+let previousValue = '';
+let currentValue = '';
 
 //storing all components
 document.addEventListener("DOMContentLoaded", function() {

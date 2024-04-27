@@ -5,7 +5,6 @@ body{
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    border: 2px solid black;
     font-family: Georgia, sans-serif;
 }
 
@@ -13,7 +12,6 @@ body{
     border: 3px solid black;
     padding: 50px;
     background-color: grey;
-
 }
 
 h1 {
@@ -28,10 +26,16 @@ h1 {
     border-radius: 10px;
     background-color: blue;
 }
+.btn:hover {
+    background-color: lightblue;
+}
 
 .number {
     background-color: lightcoral;
     border-radius: 10px;
+}
+.number:hover {
+    background-color: papayawhip;
 }
 
 .operator {
@@ -39,14 +43,24 @@ h1 {
     border-radius: 10px;
 }
 
+.operator:hover {
+    background-color: lightgreen;
+}
+
 .decimal {
     background-color: yellow;
     border-radius: 10px;
+}
+.decimal:hover {
+    background-color: yellowgreen;
 }
 
 .equal {
     background-color: purple;
     border-radius: 10px;
+}
+.equal:hover {
+    background-color: violet;
 }
 
 #screen {
