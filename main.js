@@ -6,6 +6,7 @@ let currentValue = '';
 //storing all components
 document.addEventListener("DOMContentLoaded", function() {
     let clear = document.querySelector("#clear-btn");
+    let backButton = document.querySelector("#back-btn");
     let equal = document.querySelector(".equal");
     let decimal = document.querySelector(".decimal");
 
@@ -25,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
         previousScreen.textContent = previousVaule + "" + operator;
         currentScreen.textContent = currentValue;
     }))
-//clear btn
+
+    //clear btn
     clear.addEventListener("click", function() {
         previousValue = '';
         currentValue = '';
@@ -33,6 +35,11 @@ document.addEventListener("DOMContentLoaded", function() {
         previousScreen.textContent = currentValue;
         currentScreen.textContent = currentValue;
     })
+
+    backButton.addEventListener("click", function() {
+        currentValue = currentValue.slice(0, -1);
+        currentScreen.textContent = currentValue;
+    });
 
     equal.addEventListener("click", function(){
         if(currentValue != '' && previousValue != ''){
@@ -93,3 +100,4 @@ function calculate() {
             currentValue += '.';
         }
     }
+
